@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1, minimum-scale-1">
+  <meta name="keywords" content="exemplo curso de programação, curso de programador, programação">
+  <meta name="description" content="aprenda a programar de forma facil">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link href="css/problema4.css" rel="stylesheet" type="text/css"/>
+  <!-- icone do site -->
+  <link rel="short icon" type="image/x-icon" href=""/>
+  <!-- icone do menu -->
+  <link href="" rel="stylesheet">
+  <title>Polya</title>
+</head>
+<body>
+
+  <!-- cabeçalho -->
+    <div class="header">
+        <a href="#default" class="logo">Polya</a>
+        <div class="header-right">
+          <a class="active" href="#language">Português</a>
+          <a href="#config">Configurações</a>
+          <a href="#support">Suporte</a>
+        </div>
+      </div>
+
+  <!-- barra de opçoes -->
+  <div class="topnav">
+  <a class="active" href="#home">Problemas</a>
+  <a href="submissoes.html">Submissões</a>
+  <a href="forum.html">Fórum</a>
+  <a href="turmas.html">Turmas</a>
+  <a href="rank.html">Rank</a>
+  <input type="text" placeholder="Pesquisar...">
+</div>
+
+<div class="titulo">
+    <h3>Leia 20 números inteiros e armazene os valores pares em um vetor A, 
+        ímpar em um vetor B e imprima todos os valores em um vetor C</h3>
+</div>
+<!-- corpo da pagina  -->
+<div class="corpo">
+    <div class="imagem">
+      <img src="img/prob4ex1.png" alt="">
+    </div>
+    <div class="texto">
+      <div class="texto_titulo">
+        <h3>Dicas para resolver possiveis erros do seu código</h3>
+      </div>
+      <div class="texto_dicas">
+        <p>Dica 1 -> Forma incorreta de adicionar valores. Para adicionarmos valores em uma lista,
+             devemos usar o método append(valor). Se simplesmente dissermos que a lista
+             = valor (lista recebe valor), o valor vai ser substituído, não adicionado.
+        </p>
+        <p>Dica 2 -> Forma incorreta de organizar números pares e ímpares. Todo número que é divido 
+            por 2 e o resto da sua divisão é 0, é um número par. Logo devemos criar um if com a condição:
+            if valor % 2 == 0 e no bloco de instrução, adicionar apenas os valores pares ao vetorA,
+            logo em seguida será feito um else para que qualquer número que o resto da sua divisão
+            seja diferente de 0, será adicionado ao vetorB o número ímpar.</p>
+        
+      </div>  
+    </div>
+  <!--<div class="filtro">
+      <input type="text" placeholder="Pesquisar...">
+  </div>-->
+
+  </div>
+</div>
+
+ <!-- rodapá da pagina -->
+<div class="footer">
+    <p>Polya</p>
+  </div>
+</body>
+</html>
